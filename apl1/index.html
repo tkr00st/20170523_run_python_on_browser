@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>BrythonでBMIを計算する</title>
+  <script src="lib/brython.js"></script>
+  <script src="lib/bmi.py" type="text/python"></script>
+</head>
+<body onload="brython()">
+  <h1>BrythonでBMIを計算する</h1>
+
+  <p>身長(メートル)</p>
+  <input type="text" id="height">
+  <p>体重(キログラム)</p>
+  <input type="text" id="weight">
+  <p><button id="execute">実行</button></p>
+
+  <div id="result" style="width:300px; border:1px solid #aaa; padding: 5px;"></div>
+</body>
+</html>
